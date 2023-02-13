@@ -53,7 +53,7 @@ ROOT_URLCONF = "web.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": ['templates'],
+        "DIRS": ['polls/templates'],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
